@@ -18,7 +18,7 @@
         text-align: center;
         font-family: $font-main-3;
         font-size: 1.3rem;
-        margin-top: 0;
+        margin: 0 0 1.5rem 0;
 
         @media (min-width: 576px) {
             font-size: 1.8rem;
@@ -44,7 +44,8 @@
     &__wrapper {
         display: flex;
         justify-content: space-between;
-        padding: 1.25rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
         background-color: $c2-second;
         color: $c-white;
 
@@ -107,5 +108,75 @@
 
     &__colon {
         font-family: $font-main-2;
+    }
+
+    &__subheading {
+        font-family: $font-main-3;
+        font-size: 1.1rem;
+        text-align: center;
+        margin: 0 0 0.75rem 0;
+
+        @media (min-width: 576px) {
+            font-size: 1.6rem;
+        }
+
+        @media (min-width: 768px) {
+            font-size: 2.3rem;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 2.9rem;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 3.5rem;
+        }
+        
+        @media (min-width: 1920px) {
+            font-size: 3.9rem;
+        }
+    }
+
+    &__logo-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__logo-link {
+        display: block;
+        max-width: 50px;
+
+        &:nth-child(odd) {
+            margin-right: 0.5rem;
+        }
+
+        &:nth-child(even) {
+            margin-left: 0.5rem;
+        }
+
+        @media (min-width: 576px) {
+            max-width: 75px;
+        }
+
+        @media (min-width: 768px) {
+            font-size: 2.3rem;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 2.9rem;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 3.5rem;
+        }
+        
+        @media (min-width: 1920px) {
+            font-size: 3.9rem;
+        }
+    }
+
+    &__logo {
+        width: 100%;
+        height: auto;
     }
 }
