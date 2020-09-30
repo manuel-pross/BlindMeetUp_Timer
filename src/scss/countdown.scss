@@ -8,10 +8,10 @@
 
     &__image {
         display: block;
-        width: 100%;
+        width: 90%;
         height: auto;
         max-width: 800px;
-        margin: 0 auto;
+        margin: 0 auto 1.5rem auto;
     }
 
     &__heading {
@@ -46,7 +46,7 @@
         justify-content: space-between;
         padding: 1rem;
         margin-bottom: 1rem;
-        background-color: $c2-second;
+        background: $gradient;
         color: $c-white;
 
         @media (min-width: 576px) {
@@ -144,7 +144,7 @@
 
     &__logo-link {
         display: block;
-        max-width: 50px;
+        max-width: 40px;
 
         &:nth-child(odd) {
             margin-right: 0.5rem;
@@ -155,23 +155,7 @@
         }
 
         @media (min-width: 576px) {
-            max-width: 75px;
-        }
-
-        @media (min-width: 768px) {
-            font-size: 2.3rem;
-        }
-
-        @media (min-width: 992px) {
-            font-size: 2.9rem;
-        }
-
-        @media (min-width: 1200px) {
-            font-size: 3.5rem;
-        }
-        
-        @media (min-width: 1920px) {
-            font-size: 3.9rem;
+            max-width: 60px;
         }
     }
 
