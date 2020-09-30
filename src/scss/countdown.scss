@@ -1,0 +1,111 @@
+.countdown {
+    font-family: $font-main-1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;;
+    transform: translateY(-50%);
+
+    &__image {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    &__heading {
+        text-align: center;
+        font-family: $font-main-3;
+        font-size: 1.3rem;
+        margin-top: 0;
+
+        @media (min-width: 576px) {
+            font-size: 1.8rem;
+        }
+
+        @media (min-width: 768px) {
+            font-size: 2.5rem;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 3.1rem;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 3.7rem;
+        }
+        
+        @media (min-width: 1920px) {
+            font-size: 4.1rem;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.25rem;
+        background-color: $c2-second;
+        color: $c-white;
+
+        @media (min-width: 576px) {
+            font-size: 1.5rem;
+        }
+
+        @media (min-width: 768px) {
+            font-size: 2.2rem;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 2.8rem;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 3.4rem;
+        }
+
+        @media (min-width: 1920px) {
+            font-size: 3.8rem;
+        }
+    }
+
+    &__item-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 44px;
+        
+        @media (min-width: 576px) {
+            min-width: 66px;
+        }
+
+        @media (min-width: 768px) {
+            min-width: 96px;
+        }
+
+        @media (min-width: 992px) {
+            min-width: 122px;
+        }
+
+        @media (min-width: 1200px) {
+            min-width: 148px;
+        }
+
+        @media (min-width: 1920px) {
+            min-width: 166px;
+        }
+    }
+
+    &__item {
+        flex: 0 0 100%;
+        text-align: center;
+
+        &:nth-child(even) {
+            margin-top: 1rem;
+        }
+    }
+
+    &__colon {
+        font-family: $font-main-2;
+    }
+}
