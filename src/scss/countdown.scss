@@ -49,10 +49,6 @@ html {
         text-align: center;
         line-height: 1.5;
         margin: 0 0 2.5rem 0;
-
-        @media (min-width: 992px) {
-            text-align: left;
-        }
     }
 
     &__wrapper {
@@ -126,8 +122,14 @@ html {
     &__cooperation {
         @media (min-width: 1200px) {
             position: absolute;
-            top: 100%;
             right: -40%;
+            bottom: -21%;
+        }
+
+        @media (min-width: 1920px) {
+            position: absolute;
+            right: -430px;
+            bottom: -160px;
         }
     }
 
