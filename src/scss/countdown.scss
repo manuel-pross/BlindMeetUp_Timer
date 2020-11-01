@@ -122,8 +122,13 @@ html {
     &__cooperation {
         @media (min-width: 1200px) {
             position: absolute;
-            right: -40%;
-            bottom: -10%;
+            right: -45%;
+            bottom: -8%;
+        }
+
+        @media (min-width: 1920px) {
+            right: -45%;
+            bottom: -30%;
         }
     }
 
