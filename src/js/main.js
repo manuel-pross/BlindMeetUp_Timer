@@ -30,7 +30,8 @@ dataReload.forEach(element => {
     }
 });
 
-if(!userLang.includes("DE"))  {
+if(!userLang.includes("de") && window.location.hash != "#de")  {
+    console.log("Usersprache ist nicht deutsch")
     translate()
 }
 
