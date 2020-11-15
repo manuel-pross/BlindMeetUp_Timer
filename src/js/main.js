@@ -13,7 +13,7 @@ const language = {
         countDays: "Days",
         countHours: "Hours",
         countMinutes: "Minutes",
-        projectDesc: "We connect you with other students from the faculties of Furtwangen University. In an uncomplicated and anonymous way. Blind MeetUp is a web application with which allows you to participate in a networking meeting. If you are interested in meeting new people, Blind MeetUp is the right choice for you! If you're an international student it's a great opportunity to make new contacts and get involved in campus life.",
+        projectDesc: "We connect you with other students from the faculties of Furtwangen University. In an uncomplicated and anonymous way. Blind MeetUp is a web application which allows you to participate in a networking meeting. If you are interested in meeting new people, Blind MeetUp is the right choice for you! If you're an international student it's a great opportunity to make new contacts and get involved in campus life.",
         seeMore: "Wanna see more?",
         followUs: "Follow us now!",
         cooperation: "In cooperation with"
