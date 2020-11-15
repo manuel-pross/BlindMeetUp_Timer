@@ -6,6 +6,38 @@ html {
     background-size: cover;
 }
 
+.language-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.4rem 0.4rem;
+    font-size: 1.2rem;
+    
+    &__link {
+        /* unvisited link */
+        &:link {
+            color: $c-white;
+            text-decoration: none;
+        }
+        
+        /* visited link */
+        &:visited {
+            color: $c-white;
+            text-decoration: none;
+        }
+        
+        /* selected link */
+        &:active {
+            color: $c-white;
+            text-decoration: none;
+        }
+    }
+
+    &__vertical {
+        color: $c-white;
+        margin: 0 0.25rem;
+    }
+}
+
 .countdown {  
     font-family: $font-main-1;
     font-size: 0.9rem;
@@ -81,7 +113,13 @@ html {
     &__sub-desc {
         font-family: $font-main-2;
         text-align: center;
+        margin: 0 0 0.25rem 0;
+    }
+
+    &__follow-us {
+        font-family: $font-main-2;
         margin: 0 0 1.25rem 0;
+        text-align: center;
     }
 
     &__instagram {
